@@ -1,279 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Global</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
+
+     <title>Ben's Resume - Profile HTML Page</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
 </head>
-<body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
-  </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>Global</p>
-          </a>
-          <button class="header--cta cta">Hire Us</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Works</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
-            <li><span>Hire us</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Your next<br>interactive<br>experience</h1>
-                <button class="cta">Hire Us
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="#0">
-                  <h3>Metiew &amp; Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-                <a href="#0">
-                  <h3>Fantasy interactive</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-                <a href="#0">
-                  <h3>Paul &amp; shark</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>Selected work</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Ben Resume
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
                 </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
-                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                <input type="submit" value="Send Request">
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Works</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Hire us</li>
-  </ul>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/ben.jpg" class="img-fluid" alt="Ben Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Ben, a digital nomad</h1>
+
+                            <a href="#" class="email-link">
+                                hello@company.co
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">This is Ben's Resume</h3>
+
+                    <p>Ben Resume HTML Template is brought to you by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
+
+                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Ben Wilson </li>
+
+                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+
+                        <li><strong>Website :</strong> company.co</li>
+
+                        <li><strong>Email :</strong> hello@company.co</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer volutpat</h3>
+                <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Mauris semper</h3>
+                <p>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer id neque</h3>
+                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">What People say</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Ben</h6>
+                                        <span>Art Director</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image02.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Marie</h6>
+                                        <span>Marketing Consultant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image03.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Jen</h6>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Wilson</h6>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Are those HTML templates absolutely free for any kind of usage?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, they are 100% free and there is no hidden charge.</p>
+
+                            <p>They can be used for your commercial websites.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I use them as a CMS theme or a part of website builder?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, you can use them.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              I cannot find a suitable HTML template. Can I request new template?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I redistribute your templates?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              How do I support Tooplate?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+
+                </div>
+
+           	 </div><!-- col -->
+        	</div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                <p class="mb-1">010-020-0340</p>
+
+                <p>
+                    <a href="#">
+                        hello@company.co
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>
+                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                
+                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
 </body>
 </html>
