@@ -80,9 +80,29 @@ https://www.tooplate.com/view/2120-ben-resume
 
                             <h1 class="hero-title">DPhil student in Philosophy</h1>
 
-                            <a href="#" class="email-link">
+                            <!-- Your email link button -->
+                            <a href="#" class="email-link" onclick="copyEmail(event)">
                                 rasmus.bakken@balliol.ox.ac.uk
                             </a>
+
+                            <!-- JavaScript to copy the email to clipboard -->
+                            <script>
+                                function copyEmail(event) {
+                                    event.preventDefault(); // Prevent the default link behavior
+                                    const email = "rasmus.bakken@balliol.ox.ac.uk";
+
+                                    // Create a temporary textarea element to copy the text
+                                    const tempInput = document.createElement("textarea");
+                                    tempInput.value = email;
+                                    document.body.appendChild(tempInput);
+                                    tempInput.select();
+                                    document.execCommand("copy");
+                                    document.body.removeChild(tempInput);
+
+                                    // Optional: Display a message to the user
+                                    alert("Email address copied to clipboard!");
+                                }
+                            </script>
                           
                         </div>
                     </div>
