@@ -157,14 +157,13 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   a {
-    color: var(--dark-color);
-    text-decoration: none;
-    transition: all 0.4s linear;
-  }
+    color: #007bff; /* A strong blue */
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-  a:hover  {
-    color: var(--dark-color);
-    text-decoration: none;
+  a:hover {
+      color: #0056b3; /* A darker blue on hover */
   }
 
 
